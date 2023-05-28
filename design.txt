@@ -1,0 +1,20 @@
+Overview:
+I finished most parts of the project. The overall game is playable and substitutable. I failed to correctly track the number of clicks, therefore it did not update the movement count as user clicks the screen and I also failed to create a winning and losing scenario for the game since I can't count how many times user clicks the screen. However, through the finishing of the project, I feel more confident about my coding experience and learned more knowledge through the research and learning process for the project.
+
+Design:
+Throughout the codes for game design, I mainly used procedural design with many functions that interconnect with each other. I successfully retrieved all the square coordinates but failed to append inside the list because I was having trouble capturing the data in my desired nested list format. Therefore, I manually input all the puzzle board coordinates into a nested list. The click function is created based on many types of scenarios according to what user clicks on the screen. It is very long and efficient but they are all thought out and implanted correctly. I could have separated each section into different function to keep the code in better shape. 
+
+Source Files:
+5001_puzzle.err
+design.txt
+leaderboard.txt
+
+References:
+https://stackoverflow.com/questions/48408353/clear-an-image-from-turtle-graphics-in-python
+https://stackoverflow.com/questions/9347419/python-strip-with-n
+https://docs.python.org/3/library/turtle.html
+https://compucademy.net/the-15-puzzle-with-python-turtle-graphics/
+https://inventwithpython.com/pygame/chapter4.html
+https://www.geeksforgeeks.org/turtle-onscreenclick-function-in-python/#:~:text=turtle.-,onscreenclick(),mouse%2Dclick%20event%20on%20canvas.&text=a%20function%20with%20two%20arguments,clicked%20point%20on%20the%20canvas.
+https://stackoverflow.com/questions/49034728/how-to-make-a-dialogue-box-in-turtle-take-an-input
+https://stackoverflow.com/questions/37598593/how-can-i-move-the-turtle-every-few-seconds-without-using-time-sleep
